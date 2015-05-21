@@ -29,6 +29,7 @@ Create an Eclipse project:
 
 Run application:
  1. Run ```gradle jettyRun``` and you should be able to view the application in your browser at http://localhost:8080/epubcataloger.
+ 2. Log as administrator using admin/admin or as normal user with user/user
 
 ## Troubleshooting
 If you receive OutOfMemory errors when using "gradle jettyRun", increase the memory available to Java.
