@@ -2,7 +2,7 @@
 An e-book cataloging web application written in Java.
 
 ## Introduction
-ePub Cataloger is an e-book cataloging web application written in Java that is based on [AppFuse stack] (http://appfuse.org/display/APF/Home). The main purpose of this project was to gain a general understanding of all frameworks used by AppFuse and playing around with gradle.
+ePub Cataloger is an e-book cataloging web application written in Java that is based on [AppFuse stack][1]. The main purpose of this project was to gain a general understanding of all frameworks used by AppFuse and playing around with gradle.
 
 Foundational frameworks used by AppFuse:
 - Bootstrap and jQuery
@@ -34,3 +34,5 @@ Run application:
 ## Troubleshooting
 If you receive OutOfMemory errors when using "gradle jettyRun", increase the memory available to Java.
 For example, set your JAVA_OPTS environment variable to -Xmx1024M -XX:PermSize=512m.
+
+[1]: http://appfuse.org/display/APF/Home
